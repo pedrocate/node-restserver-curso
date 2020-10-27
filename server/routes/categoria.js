@@ -1,5 +1,4 @@
 const express = require('express');
-const { verify } = require('jsonwebtoken');
 
 let { verificaToken, verificaAdminRole } = require('../middlewares/autenticacion');
 
